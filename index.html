@@ -108,15 +108,15 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
                 
             }
             var mult=document.getElementById("mult").value;
-            fns.push("total foods")
+            fns.push("Total foods")
                 nums.push(total/2)
-                fns.push("total price")
+                fns.push("Total Price")
                 nums.push(totalPrice/2)
-                fns.push("total price x " + mult)
+                fns.push("Total Price x " + mult)
                 nums.push((totalPrice/2)*mult)
                 fns.push("Total Blankets Required")
                 nums.push(((totalPrice*mult/2)/1098).toFixed(2))
-                fns.push("total Rings Required")
+                fns.push("Total Rings Required")
                 nums.push(((totalPrice*mult/2)/824).toFixed(2))
     
             
@@ -134,7 +134,7 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
             for (idx in fns)
             {
                
-                document.write("<h4 style= " + "padding-top:1px;padding-left:48px;" + ">" +fns[idx] + "=" + nums[idx] + "</h4>")
+                document.write("<h4 style= " + "padding-top:1px;padding-left:48px;" + ">" +fns[idx] + " = " + nums[idx] + "</h4>")
             }
             
             SetCookie("Price_Calculator", encode)
