@@ -172,7 +172,13 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
             
             var foods   =   new Array(
         
-            
+
+                new Food("Axes", 5, 36 , "Tools"),
+                new Food("Saws", 5, 54 , "Tools"),
+                new Food("Dynamites", 5, 25 , "Tools"),
+                new Food("TNT barrels", 5, 72 , "Tools"),
+                new Food("Shovels", 5, 108 , "Tools"),
+                new Food("Pickaxe", 34, 126 , "Tools"),
         
                 new Food("Bread", 2, 21 , "Bakery"),
                 new Food("Cookie", 10, 104 , "Bakery"),
@@ -368,7 +374,7 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
                 new Food("Goat Cheese Toast", 92, 302 , "Sandwich Bar"),
                 new Food("Onion Melt", 84, 471 , "Sandwich Bar"),
                 new Food("Cucumber Sandwich", 79, 464 , "Sandwich Bar"),
-                new Food("Peanut Butter Sandwich", 71, 673 , "Sandwich Bar"),
+                new Food("Peanut Butter Sandwich", 71, 601 , "Sandwich Bar"),
         
                 new Food("Soy Sauce", 54, 154 , "Sauce Maker"),
                 new Food("Olive Oil", 60, 277 , "Sauce Maker"),
@@ -516,7 +522,7 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
                         document.write("<h4>Price</h4>" );
                     document.write("</div>");
                     document.write("<div class=" + "col-3" + ">");
-                        document.write("<h4>Input</h4>");
+                        document.write("<h4>Quantity</h4>");
                     document.write("</div>");
                     last_fn  = foods[idx].fn
                 }
@@ -539,7 +545,7 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
                             document.write("<h4>Price</h4>" );
                         document.write("</div>");
                         document.write("<div class=" + "col-3" + ">");
-                            document.write("<h4>Input</h4>");
+                            document.write("<h4>Quantity</h4>");
                         document.write("</div>");
                         last_fn  = foods[idx].fn
                     }
@@ -564,4 +570,3 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
             
         </script>
     </html>
-    
