@@ -15,6 +15,7 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
         }
         input {
             width: 40%;
+            text-align:center;
             background-color: #ffffff;
 background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
@@ -35,22 +36,29 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
 
     <body>
     <div class="container">
+        <br>
+        
         <h2>
-            <p id="total">Total Food Number: 0</p>
+            <p style="Text-align:end;float:right;font-size:15px"> &#169; Raghav Maskara - "The Stoner" </p>
+            <p id="total">Total Food Number: 0  </p> 
+            
+            
+            
         </h2>
         <br>
         
-        <button type="button" class="btn btn-dark mx-3 "  onclick="commitFood()">Final Food List</button>
-        <button type="button" class="btn btn-outline-dark" onclick="resetFood()">Reset Food List</button> <br><br>
+        
     </div>
     </div>
 
     </div>
         <div class="container">
-            <span>Multiplier:   </span>
-            <input type="number" id="mult" min="1" max="5" style="width: 60px;">
+            <span></span> <b> Enter the Multiplier:  </b>  </span>
+            <input type="number" id="mult" min="1" max="5" style="width: 60px;">  <br> <br> 
             <div class="row">
+                
     </body>
+    <p style="text-align: center; font-size:30px">  Enter The Quantity Of Foods :- </p>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script>
@@ -170,7 +178,8 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
                 }
             }
             
-            var foods   =   new Array(
+            var foods   =   new Array
+            (
         
 
                 new Food("Axes", 5, 36 , "Tools"),
@@ -569,4 +578,17 @@ background-image: url("https://www.transparenttextures.com/patterns/45-degree-fa
             onFoodChange()
             
         </script>
+        </div>
+        <br><br>
+        
+        
+    
+        
+        
+        <button type="button" style="Text-align:end; float:right; padding: 12px 28px" ; class="btn btn-dark mx-3 "  onclick="commitFood()">Calculate</button>
+        <button type="button" style="Text-align:end; float:right; padding: 12px 28px"; class="btn btn-outline-dark" onclick="resetFood()">Reset Food List</button> 
+        <br>
+    </div>
+        <br><br><br><br> <p style="Text-align:center;font-size:30px"> Thank You !!! </p> <br><br><br>
+       
     </html>
