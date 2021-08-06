@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAY DAY</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="DecoCostCalculator.css">
+</head>
+<body>
+
+    <header>
+        <!-- <h1 class="text-center">HAY DAY</h1> -->
+        
+        <!--NavBar Start-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-nav">
+          <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="../index.html">Hay Day</a> -->
+            <img src="../images/Hay_Day_logo.png" class="navbar-brand">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="../index.html">Home</a>
+                <a class="nav-link" href="../PriceCalculator/PriceCalculator.html">Price Calculator</a>
+                <a class="nav-link" href="../BemsCalculator/BemsCalculator.html">Bems Calculator</a>
+                <a class="nav-link"  href="../BarnSizeCalculator/BarnSizeCalculator.html">Barn Size Calculator</a>
+                <a class="nav-link active" aria-current="page"  href="DecoCostCalculator.html">Deco Cost Calculator</a> 
+                <a class="nav-link" href="../ListMaker/listMaker.html">Food List Maker</a>
+                <a class="nav-link" href="../HayDayModApk/HayDayModApk.html">Hay Day Mod Apk</a>
+                <a class="nav-link" href="../ContactUs/ContactUs.html">Contact Us</a>                
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!--Navbar End-->
+        
+    </header>
+
+
+
+  <main>
+
+    <div class="login">
+
+          
+    
+        
+         <span>Enter the number of decorations you want to buy (It should only be of one type)</span>
+         <input type="number" class="text" id="quantity" value="1"  step="1" required>
+        <br>       
+        
+        
+        <span>Enter The Price Of that Deco in YOUR shop</span>
+        <input type="number" id="initial" class="text"  value="1"  step="1" required>
+        <br>
+    
+        
+        <span>Enter The New Price of the deco when you buy one</span>
+        <input type="number" id="final" class="text"  value="1"  step="1" required>
+        <br>
+        
+        <button type="button"  id="calculate" onclick="calculate()" >
+          Calculate
+        </button>    
+    
+    
+    </div>
+
+
+
+
+   
+
+   <div class="container imgDisplay">
+
+    <p id="display"></p>     
+     </div>
+
+     
+   </div>
+      
+  </main>
+    
+  <footer>
+    <br>
+    <a href="../ContactUs/ContactUs.html" class="btn btn-danger">Contact Us</a>  
+    <br><br>
+    <div class="unq_btn">
+            <!--facebook-->
+            <a href="https://www.facebook.com/maskararaghav/" class="fb">
+              <span class="fa-stack">
+                <i class="fa fa-certificate fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x"></i>
+              </span>
+            </a>
+
+            <!--Discord-->
+            <a href="https://discord.gg/PxCCnnc529" class="discord">
+              <span class="fa-stack">
+                <i class="fa fa-certificate fa-stack-2x"></i>
+                <i class="fab fa-discord fa-stack-1x"></i>
+              </span>
+            </a>
+
+            <!--Messenger-->
+            <a href="https://m.me/maskararaghav" class="messenger">
+              <span class="fa-stack">
+                <i class="fa fa-certificate fa-stack-2x"></i>
+                <i class="fab fa-facebook-messenger fa-stack-1x"></i>
+              </span>
+            </a>
+            <!--Instagram-->
+            <a href="https://www.instagram.com/raghavmaskara/" class="instagram">
+              <span class="fa-stack">
+                <i class="fa fa-certificate fa-stack-2x"></i>
+                <i class="fab fa-instagram fa-stack-1x"></i>
+              </span>
+            </a>
+    </div>
+
+<br>
+    <p>Website Created By- &#169;  Raghav Maskara</p>
+  </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="DecoCostCalculator.js"></script>
+
+</body>
+</html>
+
