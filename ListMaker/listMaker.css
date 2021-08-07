@@ -51,13 +51,13 @@ padding: 0 7.5%;
 }
 
 .numinp{    
-    width: 70px;
+    width: 50px;
     border: none;
     border-bottom: 2px solid red;
 }
 
 .ratio{
-    width: 70px;
+    width: 50px;
 }
 
 .machineHeading {
@@ -69,12 +69,13 @@ padding: 0 7.5%;
 }
 .foodName{
     color: black;
-    width: 25%;
+    /* width: 25%; */
 }
 .foodLevel{
     color: black;
-    width: 25%;
+    /* width: 25%; */
     text-align: center;
+    padding: 0 2px;
 }
 
 .ratioInput{
@@ -83,6 +84,11 @@ padding: 0 7.5%;
 
 .quantityInput{
     color: #0032c0;
+}
+.foodPicSize{
+    width: 35px;
+    height: 35px;
+    margin: 1px 1px 0 10px;
 }
 
 h1{
@@ -253,6 +259,15 @@ label.col-9{
 }
 .machineHeading {
     font-size: 3rem;
+}
+.numinp{    
+    width: 70px;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+.ratio{
+    width: 70px;
 }
 
 }

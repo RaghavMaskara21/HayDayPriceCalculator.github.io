@@ -63,14 +63,18 @@ input {
 }
 .foodName{
     color: black;
-    width: 25%;
+    /* width: 25%; */
 }
 .foodLevel{
     color: black;
-    width: 25%;
+    /* width: 25%; */
     text-align: center;
 }
-
+.foodPicSize{
+    width: 35px;
+    height: 35px;
+    margin: 1px 1px 0 10px;
+}
 .quantityInput{
     color: #0032c0;
 }
@@ -239,9 +243,13 @@ label{
         width: 50%;
         margin-left: 5%;
     }
-    h2{
+    #butt_top{
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
+    }
+    #total{
+        display: flex;
+        justify-content: flex-start;
     }
     h2 p{
         margin: auto 0;
