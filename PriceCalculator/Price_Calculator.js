@@ -152,7 +152,7 @@ list.pop();
                 new Food("Axe", 5, 36 , "Tools", "Axes"),
                 new Food("Saw", 5, 54 , "Tools", "Saw"),
                 new Food("Dynamite", 5, 25 , "Tools", "Dynamite"),
-                new Food("TNT barrel", 5, 72 , "Tools", "Tnt_barrel"),
+                new Food("TNT barrel", 5, 72 , "Tools", "TNT_Barrel"),
                 new Food("Shovel", 5, 108 , "Tools", "Shovel"),
                 new Food("Pickaxe", 34, 126 , "Tools", "Pickaxe"),
         
