@@ -152,7 +152,7 @@ list.pop();
                 new Food("Axe", 5, 36 , "Tools", "Axes"),
                 new Food("Saw", 5, 54 , "Tools", "Saw"),
                 new Food("Dynamite", 5, 25 , "Tools", "Dynamite"),
-                new Food("TNT barrel", 5, 72 , "Tools", "TNT_barrel"),
+                new Food("TNT barrel", 5, 72 , "Tools", "Tnt_barrel"),
                 new Food("Shovel", 5, 108 , "Tools", "Shovel"),
                 new Food("Pickaxe", 34, 126 , "Tools", "Pickaxe"),
         
@@ -178,7 +178,7 @@ list.pop();
                 new Food("Hamburger", 18, 180 , "BBQ Grill", "Hamburger"),
                 new Food("Roasted Tomatoes", 30, 118 , "BBQ Grill", "Roasted_Tomatoes"),
                 new Food("Baked Potato", 35, 298 , "BBQ Grill", "Baked_Potato"),
-                new Food("Fish burger", 27, 226 , "BBQ Grill", "Fish_burger"),
+                new Food("Fish burger", 27, 226 , "BBQ Grill", "Fish_burgers"),
                 new Food("Fish and Chips", 41, 244 , "BBQ Grill", "Fish_and_Chips"),
                 new Food("Lobster Skewer", 48, 417 , "BBQ Grill", "Lobster_Skewer"),
                 new Food("Grilled Onion", 68, 190 , "BBQ Grill", "Grilled_Onion"),
@@ -219,7 +219,7 @@ list.pop();
                 new Food("Honey Peanuts", 63, 468 , "Candy Machine", "Honey_Peanuts"),
                 
                 new Food("Espresso", 42, 248 , "Coffee Kiosk", "Espresso"),
-                new Food("caffe Latte", 43, 219 , "Coffee Kiosk", "caffe_Latte"),
+                new Food("caffe Latte", 43, 219 , "Coffee Kiosk", "Caffe_Latte"),
                 new Food("Caffe Mocha", 45, 291 , "Coffee Kiosk", "Caffe_Mocha"),
                 new Food("Raspberry Mocha", 46, 259 , "Coffee Kiosk", "Raspberry_Mocha"),
                 new Food("Hot Chocolate", 47, 316 , "Coffee Kiosk", "Hot_Chocolate"),
