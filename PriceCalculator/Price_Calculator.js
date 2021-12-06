@@ -277,6 +277,7 @@ list.pop();
                 new Food("Strawberry Ice Cream", 34, 331 , "Ice Cream Maker", "Strawberry_Ice_Cream"),
                 new Food("Chocolate Ice Cream", 39, 342 , "Ice Cream Maker", "Chocolate_Ice_Cream"),
                 new Food("Orange Sorbet", 78, 399 , "Ice Cream Maker", "Orange_Sorbet"),
+                new Food("Affogato", 78, 435 , "Ice Cream Maker", "Affogato"),
                 new Food("Peach Ice Cream", 83, 450 , "Ice Cream Maker", "Peach_Ice_Cream"),
                 new Food("Banana Split", 96, 403 , "Ice Cream Maker", "Banana_Split"),
                 new Food("Mint Ice Cream", 85, 288 , "Ice Cream Maker", "Mint_Ice_Cream"),
@@ -350,6 +351,10 @@ list.pop();
                 new Food("Chocolate Popcorn", 44, 248 , "Popcorn Pot", "Chocolate_Popcorn"),
                 new Food("Honey Popcorn", 40, 360 , "Popcorn Pot", "Honey_Popcorn"),
                 new Food("Snack Mix", 64, 309 , "Popcorn Pot", "Snack_Mix"),
+
+                new Food("Tea Pot", 94, 219 , "Pottery studio", "Tea_Pot"),
+                new Food("Potted Plant", 96, 151 , "Pottery studio", "Potted_Plant"),
+                new Food("Clay Mug", 99, 212 , "Pottery studio", "Clay_Mug"),
 
                 new Food("Pickles", 91, 270 , "Preservation Station", "Pickles"),
                 new Food("Canned fish", 95, 471 , "Preservation Station", "Canned_Fish"),
