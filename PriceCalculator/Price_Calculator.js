@@ -234,7 +234,9 @@ list.pop();
                 new Food("Bacon Fries", 87, 302 , "Deep Fryer", "Bacon_Fries"),
                 new Food("Chili Poppers", 98, 406 , "Deep Fryer", "Chili_Poppers"),
                 new Food("Hand Pies", 91, 295 , "Deep Fryer", "Hand_Pies"),
+                new Food("Falafel", 98, 226 , "Deep Fryer", "Falafel"),
                 new Food("Fried Candy Bar", 100, 658 , "Deep Fryer", "Fried_Candy_Bar"),
+                new Food("Samosa", 103, 223 , "Deep Fryer", "Samosa"),
                 
                 new Food("Plain Donut", 76, 129 , "Donut Maker", "Plain_Donut"),
                 new Food("Sprinkled Donut", 79, 313 , "Donut Maker", "Sprinkled_Donut"),
@@ -258,6 +260,12 @@ list.pop();
                 new Food("Cheese Fondue", 91, 493 , "Fondue Pot", "Cheese_Fondue"),
                 new Food("Bacon Fondue", 86, 507 , "Fondue Pot", "Bacon_Fondue"),
                 new Food("Chocolate Fondue", 81, 626 , "Fondue Pot", "Chocolate_Fondue"),
+
+                new Food("Rich Fudge", 99, 644 , "Fudge Shop", "Rich_Fudge"),
+                new Food("Mint Fudge", 102, 522 , "Fudge Shop", "Mint_Fudge"),
+                new Food("Chili Fudge", 104, 540 , "Fudge Shop", "Chili_Fudge"),
+                new Food("Lemon Fudge", 108, 590 , "Fudge Shop", "Lemon_Fudge"),
+                new Food("Peanut Fudge", 111, 1141 , "Fudge Shop", "Peanut_Fudge"),
                 
                 new Food("Cloche Hat", 70, 468 , "Hat Maker", "Cloche_Hat"),
                 new Food("Top Hat", 72, 619 , "Hat Maker", "Top_Hat"),
@@ -381,6 +389,7 @@ list.pop();
                 new Food("Onion Melt", 84, 471 , "Sandwich Bar", "Onion_Melt"),
                 new Food("Cucumber Sandwich", 79, 464 , "Sandwich Bar", "Cucumber_Sandwich"),
                 new Food("Peanut Butter and Jelly Sandwich", 71, 601 , "Sandwich Bar", "Peanut_Butter_and_Jelly_Sandwich"),
+                new Food("Hummus Wraps", 109, 374 , "Sandwich Bar", "Hummus_Wrap"), 
                 
                 new Food("Soy Sauce", 54, 154 , "Sauce Maker", "Soy_Sauce"),
                 new Food("Olive Oil", 60, 277 , "Sauce Maker", "Olive_Oil"),
@@ -389,6 +398,7 @@ list.pop();
                 new Food("Tomato Sauce", 69, 230 , "Sauce Maker", "Tomato_Sauce"),
                 new Food("Salsa", 77, 252 , "Sauce Maker", "Salsa"),
                 new Food("Olive Dip", 62, 468 , "Sauce Maker", "Olive_Dip"),
+                new Food("Hummus", 95, 277 , "Sauce Maker", "Hummus"),
                 new Food("Tart Dressing", 100, 288 , "Sauce Maker", "Tart_Dressing"),
 
                 
