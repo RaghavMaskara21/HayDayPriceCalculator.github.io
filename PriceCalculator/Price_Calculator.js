@@ -251,15 +251,18 @@ list.pop();
                 
                 new Food("Rustic Bouquet", 49, 208 , "Flowershop", "Rustic_Bouquet"),
                 new Food("Bright Bouquet", 65, 338 , "Flowershop", "Bright_Bouquet"),
-                new Food("Soft Bouquet", 93, 298 , "Flowershop", "Soft_Bouquet"),
-                new Food("Candy Bouquet", 90, 554 , "Flowershop", "Candy_Bouquet"),
                 new Food("Gracious Bouquet", 73, 500 , "Flowershop", "Gracious_Bouquet"),
+                new Food("Candy Bouquet", 90, 554 , "Flowershop", "Candy_Bouquet"),
                 new Food("Birthday Bouquet", 92, 349 , "Flowershop", "Birthday_Bouquet"),
+                new Food("Soft Bouquet", 93, 298 , "Flowershop", "Soft_Bouquet"),           
                 new Food("Veggie Bouquet", 106, 352 , "Flowershop", "Veggie_Bouquet"),
                 
-                new Food("Cheese Fondue", 91, 493 , "Fondue Pot", "Cheese_Fondue"),
-                new Food("Bacon Fondue", 86, 507 , "Fondue Pot", "Bacon_Fondue"),
+                
+                
                 new Food("Chocolate Fondue", 81, 626 , "Fondue Pot", "Chocolate_Fondue"),
+                new Food("Bacon Fondue", 86, 507 , "Fondue Pot", "Bacon_Fondue"),
+                new Food("Cheese Fondue", 91, 493 , "Fondue Pot", "Cheese_Fondue"),
+                new Food("Tropical Fondue", 100, 417 , "Fondue Pot", "Tropical_Fondue"),
 
                 new Food("Rich Fudge", 99, 644 , "Fudge Shop", "Rich_Fudge"),
                 new Food("Mint Fudge", 102, 522 , "Fudge Shop", "Mint_Fudge"),
@@ -318,6 +321,7 @@ list.pop();
                 new Food("Grape Juice", 84, 104 , "Juice Press", "Grape_Juice"),
                 new Food("Passion Fruit Juice", 88, 64 , "Juice Press", "Passion_Fruit_Juice"),
                 new Food("Watermelon Juice", 92, 108 , "Juice Press", "Watermelon_Juice"),
+                new Food("Mango Juice", 97, 230 , "Juice Press", "Mango_Juice"),
                 new Food("Pineapple Juice", 52, 68 , "Juice Press", "Pineapple_Juice"),
                 
                 new Food("Sweater", 17, 151 , "Loom", "Sweater"),
@@ -466,6 +470,10 @@ list.pop();
                 new Food("Tofu Stir Fry", 89, 306 , "Wok Kitchen", "Tofu_Stir_Fry"),
                 new Food("Spicy Fish", 79, 543 , "Wok Kitchen", "Spicy_Fish"),
                 new Food("Peanut Noodles", 86, 597 , "Wok Kitchen", "Peanut_Noodles"),
+
+                new Food("Plain Yogurt", 103, 234 , "Yogurt Maker", "Plain_Yogurt"),
+                new Food("Strawberry Yogurt", 105, 529 , "Yogurt Maker", "Strawberry_Yogurt"),
+                new Food("Tropical Yogurt", 109, 457 , "Yogurt Maker", "Tropical_Yogurt"),
         
             )
             
