@@ -172,6 +172,7 @@ list.pop();
                 new Food("Frutti di Mare Pizza", 45, 403 , "Bakery", "Frutti_di_Mare_Pizza"),
                 new Food("Banana Bread", 91, 424 , "Bakery", "Banana_Bread"),
                 new Food("Gingerbread Cookie", 86, 273 , "Bakery", "Gingerbread_Cookie"),
+                new Food("Macaroon", 101, 421 , "Bakery", "Macaroon"),
         
                 new Food("Pancakes", 9, 108 , "BBQ Grill", "Pancake"),
                 new Food("Bacon and Eggs", 11, 201 , "BBQ Grill", "Bacon_and_Eggs"),
@@ -225,6 +226,11 @@ list.pop();
                 new Food("Hot Chocolate", 47, 316 , "Coffee Kiosk", "Hot_Chocolate"),
                 new Food("Iced Banana Latte", 88, 277 , "Coffee Kiosk", "Iced_Banana_Latte"),
                 new Food("Caramel Latte", 62, 345 , "Coffee Kiosk", "Caramel_Latte"),
+
+                new Food("Plain Cupcake", 109, 280 , "Cupcake Maker", "Plain_Cupcake"),
+                new Food("Guava Cupcake", 109, 583 , "Cupcake Maker", "Guava_Cupcake"),
+                new Food("Tropical Cupcake", 112, 572 , "Cupcake Maker", "Tropical_Cupcake"),
+                new Food("Cookie Cupcake", 114, 712 , "Cupcake Maker", "Cookie_Cupcake"),
                 
                 new Food("Cream", 6, 50 , "Dairy", "Cream"),
                 new Food("Butter", 9, 82 , "Dairy", "Butter"),
@@ -294,6 +300,8 @@ list.pop();
                 new Food("Mint Ice Cream", 85, 288 , "Ice Cream Maker", "Mint_Ice_Cream"),
                 new Food("Sesame Ice Cream", 50, 176 , "Ice Cream Maker", "Sesame_Ice_Cream"),
                 new Food("Peanut Butter Milkshake", 68, 619 , "Ice Cream Maker", "Peanut_Butter_Milkshake"),
+                new Food("Coconut ice cream", 102, 320 , "Ice Cream Maker", "Coconut_Ice_Cream"),
+                new Food("Fruit Sorbet", 106, 518 , "Ice Cream Maker", "Fruit_Sorbet"),
                 
                 new Food("Apple Jam", 35, 219 , "Jam Maker", "Apple_Jam"),
                 new Food("Raspberry Jam", 36, 252 , "Jam Maker", "Raspberry_Jam"),
@@ -323,6 +331,7 @@ list.pop();
                 new Food("Watermelon Juice", 92, 108 , "Juice Press", "Watermelon_Juice"),
                 new Food("Mango Juice", 97, 230 , "Juice Press", "Mango_Juice"),
                 new Food("Pineapple Juice", 52, 68 , "Juice Press", "Pineapple_Juice"),
+                new Food("Guava Juice", 104, 252 , "Juice Press", "Guava_Juice"),
                 
                 new Food("Sweater", 17, 151 , "Loom", "Sweater"),
                 new Food("Blue Woolly Hat", 19, 111 , "Loom", "Blue_Woolly_Hat"),
@@ -372,6 +381,7 @@ list.pop();
                 new Food("Canned fish", 95, 471 , "Preservation Station", "Canned_Fish"),
                 new Food("Kimchi", 98, 219 , "Preservation Station", "Kimchi"),
                 new Food("Dried fruit", 102, 266 , "Preservation Station", "Dried_Fruit"),
+                new Food("Guava Compote", 104, 421 , "Preservation Station", "Guava_Compote"),
                 
                 new Food("Feta Salad", 58, 745 , "Salad Bar", "Feta_Salad"),
                 new Food("BLT Salad", 62, 723 , "Salad Bar", "BLT_Salad"),
@@ -393,7 +403,7 @@ list.pop();
                 new Food("Onion Melt", 84, 471 , "Sandwich Bar", "Onion_Melt"),
                 new Food("Cucumber Sandwich", 79, 464 , "Sandwich Bar", "Cucumber_Sandwich"),
                 new Food("Peanut Butter and Jelly Sandwich", 71, 601 , "Sandwich Bar", "Peanut_Butter_and_Jelly_Sandwich"),
-                new Food("Hummus Wraps", 109, 374 , "Sandwich Bar", "Hummus_Wrap"), 
+                new Food("Hummus Wrap", 109, 374 , "Sandwich Bar", "Hummus_Wrap"), 
                 
                 new Food("Soy Sauce", 54, 154 , "Sauce Maker", "Soy_Sauce"),
                 new Food("Olive Oil", 60, 277 , "Sauce Maker", "Olive_Oil"),
@@ -427,6 +437,7 @@ list.pop();
                 new Food("Plum Smoothie", 102, 522 , "Smoothie Mixer", "Plum_Smoothie"),
                 new Food("Cucumber Smoothie", 70, 266 , "Smoothie Mixer", "Cucumber_Smoothie"),
                 new Food("Black Sesame Smoothie", 93, 313 , "Smoothie Mixer", "Black_Sesame_Smoothie"),
+                new Food("Tropical Smoothie", 104, 475 , "Smoothie Mixer", "Tropical_Smoothie"),
                 
                 new Food("Lobster Soup", 46, 612 , "Soup Kitchen", "Lobster_Soup"),
                 new Food("Tomato Soup", 47, 478 , "Soup Kitchen", "Tomato_Soup"),
@@ -442,6 +453,10 @@ list.pop();
                 
                 new Food("Peanuts", 62, 234 , "Squirrel Tree", "Peanuts"),
                 
+                new Food("Chickpea Stew", 106, 284 , "Stew Pot", "Chickpea_Stew"),
+                new Food("Chili Stew", 109, 370 , "Stew Pot", "Chili_Stew"),
+                new Food("Winter Stew", 112, 295 , "Stew Pot", "Winter_Stew"),
+
                 new Food("Brown Sugar", 7, 32 , "Sugar Mill", "Brown_Sugar"),
                 new Food("White Sugar", 13, 50 , "Sugar Mill", "White_Sugar"),
                 new Food("Syrup", 18, 90 , "Sugar Mill", "Syrup"),
