@@ -6,6 +6,10 @@
     z-index: 99;
   }
 
+.hidden{
+    display: none;
+}
+
 h2{
             padding-top: 24px;
             padding-bottom: 24px;

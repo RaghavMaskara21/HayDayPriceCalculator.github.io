@@ -1,10 +1,27 @@
     
         //scroll to bottom
         const backToBottomButton = document.querySelector(".back-to-bottom");
-        
+        const scrollContainer = () => {
+            return document.documentElement || document.body;
+          };
+          
+          document.addEventListener("scroll", () => {
+            
+            if (scrollContainer().scrollTop < scrollContainer().scrollHeight - 2000) {
+                backToBottomButton.classList.remove("hidden")
+            } else {
+                backToBottomButton.classList.add("hidden")
+            }
+          })
+
+          
         const goToBottom = () => {
 
-            document.body.scrollIntoView(false);
+            document.body.scrollIntoView({
+                block: "end", 
+                inline: "nearest",
+                behavior: "smooth",
+              });
             commitFood();
           };
           backToBottomButton.addEventListener("click", goToBottom)
