@@ -1,4 +1,10 @@
 
+.back-to-bottom {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 99;
+  }
 
 h2{
             padding-top: 24px;

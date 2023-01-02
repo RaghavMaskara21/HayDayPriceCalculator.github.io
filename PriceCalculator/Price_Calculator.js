@@ -1,4 +1,17 @@
     
+        //scroll to bottom
+        const backToBottomButton = document.querySelector(".back-to-bottom");
+        
+        const goToBottom = () => {
+
+            document.body.scrollIntoView(false);
+            commitFood();
+          };
+          backToBottomButton.addEventListener("click", goToBottom)
+
+
+        //cookie
+
         function SetCookie(name,value)
         {
             var Days = 30; 
