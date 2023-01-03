@@ -11,8 +11,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Barlow&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
+
+<script type="text/javascript">
+  (function() {
+      // https://dashboard.emailjs.com/admin/account
+      emailjs.init('c5Y7sERr7ycnMg0XQ');
+  })();
+</script>
+<script type="text/javascript">
+  window.onload = function() {
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault();
+          // generate a five digit number for the contact_number variable
+          this.contact_number.value = Math.random() * 100000 | 0;
+          // these IDs from the previous steps
+          emailjs.sendForm('contact_service', 'contact_form', this)
+              .then(function() {
+                  console.log('SUCCESS!');
+              }, function(error) {
+                  console.log('FAILED...', error);
+              });
+      });
+  }
+</script>
+
 <body>
 
     <header>
@@ -47,6 +71,49 @@
 
   <main>
    <h1>CONTACT US</h1>
+
+   <div class="container contactform">
+    <div class="row">
+      <div class="col align-self-center">
+        
+        <!-- contact form -->
+        <form id="myForm">
+          <!-- name -->
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="name"
+              name="name"
+              class="form-control"
+              id="name"
+              placeholder="enter your name"
+            />
+          </div>
+
+          <!-- email -->
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              id="email"
+              placeholder="enter your email"
+            />
+          </div>
+
+          
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
       <div class="container">
         <h2>If you have any suggestions or recommendations for my website or you are facing any issues, You can contact me via methods below.</h2>
         <div class="row">
@@ -128,6 +195,34 @@
 <!-- Default Statcounter code for Hay Day Calculator
 https://raghavmaskara21.github.io/HayDayPriceCalculator.github.io/
 -->
+
+
+
+<script>
+  // listen to the form submission
+  document
+    .getElementById("myForm")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const serviceID = "service_lx83n9t";
+      const templateID = "template_vt5mapg";
+
+      // send the email here
+      emailjs.sendForm(serviceID, templateID, this).then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          alert("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error);
+          alert("FAILED...", error);
+        }
+      );
+    });
+</script>
+
+
 <script type="text/javascript">
   var sc_project=12512973; 
   var sc_invisible=1; 
