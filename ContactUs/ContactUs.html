@@ -212,7 +212,10 @@ https://raghavmaskara21.github.io/HayDayPriceCalculator.github.io/
       emailjs.sendForm(serviceID, templateID, this).then(
         (response) => {
           console.log("SUCCESS!", response.status, response.text);
-          alert("SUCCESS!");
+          alert("Message Sent Successfully!");
+          document.getElementById("name").value="";
+          document.getElementById("email").value="";
+          document.getElementById("message").value="";
         },
         (error) => {
           console.log("FAILED...", error);
