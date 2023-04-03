@@ -233,6 +233,7 @@ list.pop();
                 new Food("Pineapple Cake", 65, 259 , "Cake Oven", "Pineapple_Cake"),
                 new Food("Fancy Cake", 54, 450 , "Cake Oven", "Fancy_Cake"),
                 new Food("Chocolate Roll", 95, 604 , "Cake Oven", "Chocolate_Roll"),
+                new Food("Pomegranate Cake", 108, 316 , "Cake Oven", "Pomegranate_Cake"),
                 
                 new Food("Strawberry Candle", 48, 370 , "Candle Maker", "Strawberry_Candle"),
                 new Food("Raspberry Candle", 52, 360 , "Candle Maker", "Raspberry_Candle"),
@@ -510,6 +511,10 @@ list.pop();
                 new Food("Iced Tea", 92, 252 , "Tea Stand", "Iced_Tea"),
                 new Food("Mint Tea", 97, 255 , "Tea Stand", "Mint_Tea"),
                 new Food("Apple Ginger Tea", 88, 169 , "Tea Stand", "Apple_Ginger_Tea"),
+                new Food("Pomegranate Tea", 107, 313 , "Tea Stand", "Pomegranate_Tea"),
+
+                new Food("Plain Waffle", 114, 198 , "Waffle Maker", "Plain_Waffle"),
+                new Food("Berry Waffle", 114, 604 , "Waffle Maker", "Berry_Waffle"),
                 
                 new Food("Fried Rice", 69, 205 , "Wok Kitchen", "Fried_Rice"),
                 new Food("Tofu Stir Fry", 89, 306 , "Wok Kitchen", "Tofu_Stir_Fry"),
